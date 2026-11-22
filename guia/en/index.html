@@ -1,0 +1,343 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>AI Builder or AI Engineer: the free plan to be ready for the next AI job</title>
+<meta name="description" content="iFood pays R$ 5,200 to R$ 7,000 to train AI Builders and AI Engineers, and applications for the 2027 cohort closed on November 17. The Builder or Engineer Plan uses INEMA's free courses to help you get ready for the next cohort or any AI job.">
+<link rel="canonical" href="https://inematds.github.io/builder-ou-engineer/guia/en/">
+<link rel="alternate" hreflang="pt-BR" href="https://inematds.github.io/builder-ou-engineer/guia/">
+<link rel="alternate" hreflang="en" href="https://inematds.github.io/builder-ou-engineer/guia/en/">
+<link rel="alternate" hreflang="es" href="https://inematds.github.io/builder-ou-engineer/guia/es/">
+<link rel="alternate" hreflang="x-default" href="https://inematds.github.io/builder-ou-engineer/guia/">
+<meta property="og:title" content="AI Builder or AI Engineer: be ready for the next AI job">
+<meta property="og:description" content="Two profiles companies are paying to train, and a free 12-week plan to help you get ready.">
+<meta property="og:image" content="https://inematds.github.io/builder-ou-engineer/guia/assets/banner.jpg">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Sora:wght@400;600;800&family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@400;600&display=swap" rel="stylesheet">
+<style>
+  :root{
+    --bg:#0c0c10; --bg2:#14141b; --card:#16161e; --line:#272730;
+    --txt:#e9e9ee; --mut:#9a9aa6; --amb:#FACC15; --amb2:#f0c070; --sky:#38bdf8; --pro:#cbd5e1;
+    --fill:#FACC15; --tint:rgba(250,204,21,.12); --ok:#7CE0C6; --bad:#F0918A;
+    color-scheme:dark;
+  }
+  body.light{
+    --bg:#f6f7f9; --bg2:#eceef2; --card:#ffffff; --line:#e1e3ea;
+    --txt:#1a1a22; --mut:#5b5b68; --amb:#a16207; --amb2:#a16207; --sky:#0369a1; --pro:#b45309;
+    --fill:#FACC15; --tint:#FEF9C3; --ok:#0E6B55; --bad:#A83426;
+    color-scheme:light;
+  }
+  body.light .hero .glow{opacity:.5}
+  body.light pre{background:#0e0e14;color:#d6d6e0}
+  body.light nav{background:rgba(246,247,249,.85)}
+  body.light .amb{color:var(--txt);background:linear-gradient(transparent 55%,#FACC15 55%)}
+  *{box-sizing:border-box}
+  html{scroll-behavior:smooth}
+  body{margin:0;background:var(--bg);color:var(--txt);font:16px/1.65 Inter,system-ui,sans-serif;-webkit-font-smoothing:antialiased}
+  h1,h2,h3{font-family:Sora,sans-serif;line-height:1.15;margin:0}
+  a{color:var(--amb);text-decoration:none}
+  body.light main a:not(.btn),body.light footer a{color:#854d0e;text-decoration:underline;text-decoration-color:#FACC15;text-decoration-thickness:3px}
+  pre{font-family:"JetBrains Mono",monospace}
+  .wrap{max-width:1160px;margin:0 auto;padding:0 22px}
+  .mut{color:var(--mut)} .amb{color:var(--amb)}
+  .chip{display:inline-block;font-size:.75rem;letter-spacing:.14em;text-transform:uppercase;color:var(--amb);font-weight:600;font-family:Sora}
+  nav{position:sticky;top:0;z-index:30;backdrop-filter:blur(12px);background:rgba(12,12,16,.78);border-bottom:1px solid var(--line)}
+  nav .wrap{display:flex;align-items:center;gap:22px;height:60px}
+  nav .brand{display:flex;align-items:center;gap:8px;font-family:Sora;font-weight:800;letter-spacing:-.02em;color:var(--amb);white-space:nowrap}
+  nav .brand .emoji{font-size:1.25rem}
+  nav .sep{color:var(--mut);opacity:.45}
+  nav .inema{color:var(--sky);font-weight:600;font-size:.88rem;font-family:Sora}
+  nav .pro{color:var(--pro);font-weight:600;font-size:.88rem;font-family:Sora}
+  nav .clubpro{display:inline-flex;align-items:center;gap:6px}
+  nav .links{margin-left:auto;display:flex;align-items:center;gap:20px;font-size:.92rem}
+  nav .links a.sec{color:var(--mut);white-space:nowrap} nav .links a.sec:hover{color:var(--txt)}
+  .lang{display:inline-flex;gap:2px;font-family:Sora;font-size:.78rem}
+  .lang a{color:var(--mut);padding:.2em .45em;border-radius:6px} .lang a.on{color:var(--amb);background:var(--tint)}
+  .tgl{background:var(--bg2);border:1px solid var(--line);color:var(--txt);width:38px;height:38px;border-radius:10px;cursor:pointer;display:inline-flex;align-items:center;justify-content:center;font-size:1.05rem}
+  .tgl:hover{border-color:var(--amb)}
+  .btn{display:inline-block;background:var(--fill);color:#1a1206;font-weight:600;padding:.6em 1.05em;border-radius:10px;font-family:Sora;border:0;cursor:pointer;font-size:1rem}
+  .btn.ghost{background:transparent;color:var(--txt);border:1px solid var(--line)}
+  @media(max-width:1760px){nav .links a.opt{display:none}}
+  @media(max-width:1220px){nav .links a.sec{display:none}}
+  @media(max-width:520px){nav .wrap{gap:8px;padding:8px 14px;height:auto;flex-wrap:wrap} nav .links{gap:8px;margin-left:0;width:100%;justify-content:space-between} nav .btn{padding:.45em .7em;font-size:.82rem} .tgl{width:34px;height:34px}}
+  .hero{position:relative;overflow:hidden;border-bottom:1px solid var(--line)}
+  .hero .glow{position:absolute;inset:-40% -20% auto auto;width:70%;height:600px;background:radial-gradient(closest-side,rgba(250,204,21,.18),transparent 70%);pointer-events:none}
+  .hero .wrap{display:grid;grid-template-columns:1.05fr .95fr;gap:40px;align-items:center;padding:74px 22px}
+  .hero .wrap>div{min-width:0}
+  .hero h1{font-size:clamp(2.1rem,4.6vw,3.3rem);font-weight:800;letter-spacing:-.025em}
+  .hero p.lead{font-size:1.15rem;color:var(--mut);margin:1.1em 0 1.6em;max-width:46ch}
+  .hero .cta{display:flex;gap:12px;flex-wrap:wrap}
+  .hero figure{margin:0;border-radius:16px;overflow:hidden;border:1px solid var(--line);box-shadow:0 30px 80px -30px #000}
+  .hero figure img{width:100%;height:auto;display:block}
+  .resumo{padding:38px 0 34px;border-bottom:1px solid var(--line)}
+  .resumo p{font-size:1.12rem;line-height:1.7;max-width:74ch;margin:.55em 0 0}
+  @media(max-width:780px){.hero .wrap{grid-template-columns:1fr;padding:48px 22px}}
+  section{padding:62px 0;border-bottom:1px solid var(--line)}
+  section h2{font-size:clamp(1.5rem,3.4vw,2.1rem);font-weight:800;letter-spacing:-.02em}
+  section .sub{color:var(--mut);margin:.6em 0 2em;max-width:66ch}
+  .grid{display:grid;gap:16px}
+  .g3{grid-template-columns:repeat(3,1fr)} .g4{grid-template-columns:repeat(4,1fr)} .g2{grid-template-columns:repeat(2,1fr)}
+  @media(max-width:820px){.g3,.g4{grid-template-columns:1fr 1fr}}
+  @media(max-width:540px){.g2,.g3,.g4{grid-template-columns:1fr}}
+  .card{background:var(--card);border:1px solid var(--line);border-radius:14px;padding:20px;min-width:0}
+  .card h3{font-size:1.05rem;margin-bottom:.4em}
+  .card p{color:var(--mut);font-size:.95rem;margin:0}
+  .card p+p{margin-top:.6em}
+  .card ul{margin:8px 0 0;padding-left:20px;color:var(--mut);font-size:.95rem}.card li{margin:5px 0}
+  .flow{display:flex;flex-wrap:wrap;gap:8px;align-items:center;margin-top:10px}
+  .flow span{background:var(--card);border:1px solid var(--line);border-radius:999px;padding:.45em .9em;font-size:.85rem;font-family:Sora;font-weight:600}
+  .flow .arr{color:var(--amb);border:none;background:none;padding:0 .1em}
+  pre{background:#0a0a0e;border:1px solid var(--line);border-radius:12px;padding:16px 18px;overflow:auto;font-size:.86rem;line-height:1.6;color:#d6d6e0;margin:.4em 0 0}
+  .step{display:grid;grid-template-columns:46px minmax(0,1fr);gap:16px;margin-bottom:26px}
+  .step>div{min-width:0}
+  .step .b{width:46px;height:46px;border-radius:12px;background:var(--fill);color:#1a1206;font-family:Sora;font-weight:800;font-size:1.25rem;display:flex;align-items:center;justify-content:center}
+  .step h3{font-size:1.12rem;margin-bottom:.3em}
+  .step p{color:var(--mut);margin:.2em 0 .4em}
+  .tag{display:inline-block;font-family:Sora;font-size:.72rem;letter-spacing:.06em;color:var(--txt);background:var(--tint);border:1px solid var(--line);border-radius:999px;padding:.1em .7em;margin-left:.4em;vertical-align:middle;font-weight:600}
+  footer{padding:46px 0;text-align:center;color:var(--mut);font-size:.9rem}
+  .pill{display:inline-block;border:1px solid var(--line);border-radius:999px;padding:.3em .8em;font-size:.78rem;color:var(--mut);margin:4px}
+  .stats{display:grid;grid-template-columns:repeat(3,1fr);gap:16px;margin-top:6px}
+  @media(max-width:720px){.stats{grid-template-columns:1fr}}
+  .stat{background:var(--card);border:1px solid var(--line);border-radius:14px;padding:20px;min-width:0}
+  .stat b{display:block;font:800 clamp(1.7rem,4vw,2.4rem)/1.05 Sora,sans-serif;letter-spacing:-.02em;color:var(--amb)}
+  body.light .stat b{color:var(--txt)}
+  .stat span{display:block;color:var(--mut);font-size:.93rem;margin-top:.5em}
+  .stat .emp{display:block;font:600 .78rem/1.3 Sora,sans-serif;font-style:normal;letter-spacing:.08em;text-transform:uppercase;color:var(--mut);margin-bottom:.45em}
+  .salarios .stat b{font-size:clamp(1.45rem,2.4vw,1.9rem)}
+  .stat.imp{border-style:dashed} .stat.imp b{color:var(--txt)}
+  .fonte{font-size:.86rem;color:var(--mut);margin-top:14px;max-width:80ch}
+  .metades{display:grid;grid-template-columns:1fr auto 1fr;gap:16px;align-items:stretch}
+  .metades .mais{display:flex;align-items:center;justify-content:center;font:800 2rem Sora,sans-serif;color:var(--amb)}
+  @media(max-width:700px){.metades{grid-template-columns:1fr}.metades .mais{padding:0}}
+  blockquote{margin:10px 0 0;padding:12px 16px;border-left:3px solid var(--fill);background:var(--bg2);border-radius:0 10px 10px 0;font-size:.95rem;color:var(--txt)}
+  .prova{background:var(--card);border:1px solid var(--amb);border-radius:16px;padding:26px 26px 22px;margin-top:6px}
+  body.light .prova{border-color:#EAB308}
+  .tl{list-style:none;margin:0;padding:0;counter-reset:t}
+  .tl li{position:relative;padding:0 0 18px 48px;counter-increment:t}
+  .tl li::before{content:counter(t);position:absolute;left:0;top:0;width:32px;height:32px;border-radius:10px;background:var(--fill);color:#1a1206;font:800 .95rem/32px Sora,sans-serif;text-align:center}
+  .tl li::after{content:"";position:absolute;left:15px;top:36px;bottom:4px;width:2px;background:var(--line)}
+  .tl li:last-child::after{display:none}
+  .tl b{font-family:Sora}
+  .tbl{width:100%;border-collapse:collapse;font-size:.95rem}
+  .tbl th,.tbl td{text-align:left;padding:12px 14px;border-bottom:1px solid var(--line);vertical-align:top}
+  .tbl th{font-family:Sora;font-size:.8rem;letter-spacing:.06em;text-transform:uppercase;color:var(--mut)}
+  .tbl td:first-child{font-family:Sora;font-weight:800;color:var(--amb);white-space:nowrap}
+  body.light .tbl td:first-child{color:var(--txt)}
+  .tblwrap{overflow-x:auto;border:1px solid var(--line);border-radius:14px;background:var(--card)}
+  @media(max-width:600px){.tbl thead{display:none} .tbl tr{display:block;border-bottom:1px solid var(--line);padding:8px 0} .tbl tr:last-child{border-bottom:none} .tbl td{display:block;border:none;padding:3px 14px}}
+  .placar{display:grid;grid-template-columns:repeat(3,1fr);gap:14px;margin:18px 0 6px}
+  @media(max-width:720px){.placar{grid-template-columns:1fr}}
+  .placar div{background:var(--bg2);border:1px solid var(--line);border-radius:12px;padding:14px 16px}
+  .placar b{display:block;font:800 1.8rem Sora,sans-serif;color:var(--amb)}
+  body.light .placar b{color:var(--txt)}
+  .placar span{color:var(--mut);font-size:.92rem}
+  .video-em-producao{position:relative;display:flex;align-items:center;justify-content:center;aspect-ratio:16/9;max-width:860px;border:1px dashed var(--line);border-radius:16px;background:var(--card);overflow:hidden;text-align:center}
+  .video-em-producao img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;opacity:.35}
+  .video-em-producao span{position:relative;font-family:Sora;font-size:1.15rem;font-weight:600;color:#fff;background:rgba(12,12,16,.7);padding:.6em 1.1em;border-radius:999px}
+</style>
+</head>
+<body>
+
+<nav><div class="wrap">
+  <a class="brand" href="#top"><span class="emoji">🧭</span> Builder or Engineer</a>
+  <span class="sep">|</span>
+  <span class="clubpro">
+    <a class="inema" href="https://inema.club" target="_blank" rel="noopener">INEMA.CLUB</a>
+    <span class="sep">-</span>
+    <a class="pro" href="https://inema.pro" target="_blank" rel="noopener">PRO</a>
+  </span>
+  <div class="links">
+    <a class="sec" href="#perfis">The two profiles</a>
+    <a class="sec opt" href="#programa">The program</a>
+    <a class="sec" href="#plano">The plan</a>
+    <a class="sec opt" href="#selecao">The selection process</a>
+    <a class="sec" href="#comecar">Get started</a>
+    <span class="lang"><a href="../">PT</a><a class="on" href="./">EN</a><a href="../es/">ES</a></span>
+    <button class="tgl" id="themeToggle" aria-label="Toggle theme" title="Toggle theme">🌙</button>
+    <a class="btn" href="https://github.com/inematds/builder-ou-engineer" target="_blank" rel="noopener">GitHub</a>
+  </div>
+</div></nav>
+
+<header class="hero" id="top">
+  <div class="glow"></div>
+  <div class="wrap">
+    <div>
+      <span class="chip">Based on iFood's official program · INEMA's free plan</span>
+      <h1>You can be an <span class="amb">AI Builder</span> or an AI Engineer. Get ready for the next job opening.</h1>
+      <p class="lead">iFood pays from R$ 5,200 to R$ 7,000 per month to train these two profiles in the genAI program, and applications for the 2027 cohort closed on November 17. The Builder track is open to any educational background, even without programming experience. Anyone who starts preparing now will have a project to show by the next cohort. The <strong>Builder or Engineer Plan</strong> lays out the path over 12 weeks, using only free INEMA courses.</p>
+      <div class="cta">
+        <a class="btn" href="#perfis">Which profile fits you?</a>
+        <a class="btn ghost" href="#plano">See the 12-week plan</a>
+      </div>
+    </div>
+    <figure><img src="../assets/banner-en.jpg" alt="AI Builder or AI Engineer: the free plan to be ready for the next AI job" width="1400" height="788"></figure>
+  </div>
+</header>
+
+<main>
+<section id="resumo" class="resumo"><div class="wrap">
+  <span class="chip">In brief</span>
+  <p>Companies that use AI most in Brazil already distinguish between two entry-level profiles: the <strong>AI Engineer</strong>, who builds inside the machine (models, code, systems), and the <strong>AI Builder</strong>, who can come from any field (business, law, marketing, design) and uses AI to solve business problems without needing to do in-depth programming. iFood pays to train both. This guide explains each profile, how this kind of program's selection process works, and offers a 12-week plan to prepare on your own with free INEMA.CLUB courses and the AI you already use. It can help you prepare for iFood's next cohort, similar programs, or use AI effectively in your current job.</p>
+  <figure style="margin:22px 0 0;border-radius:16px;overflow:hidden;border:1px solid var(--line);box-shadow:0 30px 80px -30px #000"><img src="../assets/banner-grade-en.jpg" alt="Builder or Engineer Plan: find your profile, follow the learning path, build a project with measurable results, create your portfolio, practice the selection process, and get ready" loading="lazy" width="1400" height="788" style="width:100%;height:auto;display:block"></figure>
+</div></section>
+
+<section id="video"><div class="wrap">
+  <span class="chip">Video</span>
+  <h2>The plan explained in a few minutes</h2>
+  <p class="sub">The explainer video for this guide is in production and will appear here once it's published.</p>
+  <!-- VIDEO: entra o explicavideo do projeto quando publicado -->
+  <div class="video-em-producao"><img src="../assets/banner-en.jpg" alt="" loading="lazy"><span>🎬 Video in production</span></div>
+</div></section>
+
+<section id="perfis"><div class="wrap">
+  <span class="chip">The two profiles</span>
+  <h2>Who builds AI and <span class="amb">who builds with AI</span></h2>
+  <p class="sub">Neither profile is better than the other. They are two ways to get started, and companies want them working together.</p>
+  <div class="metades">
+    <div class="card"><h3>🛠️ AI Engineer</h3><p><strong>Works inside the machine.</strong> Builds, trains, and maintains AI models, algorithms, and the systems that make everything run for millions of people.</p><p>Typically comes from computer science, software engineering, mathematics, statistics, physics, or a related field. The selection process includes a technical interview.</p></div>
+    <div class="mais" aria-hidden="true">+</div>
+    <div class="card"><h3>🧩 AI Builder</h3><p><strong>Works at the business end.</strong> Uses AI to create automations, agents, and products that solve a real problem in a field, from start to finish.</p><p>Can come from <strong>any educational background</strong>: business, marketing, economics, design, law. No in-depth programming is needed. The selection process includes a business case.</p></div>
+  </div>
+  <h3 style="margin:34px 0 14px;font-size:1.25rem">Which one are you? Answer honestly</h3>
+  <div class="grid g2">
+    <div class="card"><h3>You may lean toward Engineer if…</h3><ul><li>when something breaks, you want to open it up and find out why;</li><li>you enjoy math, logic, and clean code;</li><li>you prefer a hard technical problem to a meeting with another team;</li><li>you've worked (or want to work) with models, data, and servers.</li></ul></div>
+    <div class="card"><h3>You may lean toward Builder if…</h3><ul><li>you quickly spot what's slowing down the people around you;</li><li>you like talking with people, understanding their pain points, and persuading them to try something;</li><li>you want a solution working tomorrow, even if it's simple;</li><li>you already use AI to make presentations, analyze spreadsheets, or automate tasks.</li></ul></div>
+  </div>
+  <p class="fonte">Marked answers on both sides? Great: choose the side you'd apply for today and use the other as a strength in your interview. The prompt in <a href="#comecar">Get started</a> runs through this test with you, one question at a time.</p>
+  <div class="card" style="margin-top:16px"><h3>📖 Words you’ll come across</h3><ul><li><strong>Agent:</strong> an AI that carries out tasks on its own (searches, fills in forms, sends things), rather than just responding.</li><li><strong>Automation:</strong> a repetitive task that starts happening on its own.</li><li><strong>Vibe coding:</strong> creating an app or website by chatting with AI, which writes the code.</li><li><strong>Prompt:</strong> the request you write for the AI.</li><li><strong>Business case:</strong> a company problem that you analyze and solve in front of an evaluator.</li><li><strong>Residency:</strong> the program for recent graduates.</li><li><strong>Bootcamp and hackathon:</strong> short events (from one to a few days) to learn or build a project as a group.</li><li><strong>Note:</strong> the INEMA courses linked in the plan are in Portuguese.</li></ul></div>
+</div></section>
+
+<section id="programa"><div class="wrap">
+  <span class="chip">The reference program</span>
+  <h2>What iFood <span class="amb">offers and expects</span></h2>
+  <p class="sub">We use the second edition of genAI as our benchmark, iFood’s AI internship and residency program. The details below are from the official page, checked on November 22, 2026. They apply to the second edition, which has already closed: the next cohort may have different dates and pay.</p>
+  <div class="stats">
+    <div class="stat"><b>R$ 5,200</b><span>monthly internship stipend, for people graduating between July 2027 and January 2029.</span></div>
+    <div class="stat"><b>R$ 7,000</b><span>monthly residency stipend, new in this edition, for people who graduated between December 2025 and December 2026.</span></div>
+    <div class="stat"><b>Nov 17</b><span>the application deadline for the cohort starting in February 2027. Applications for this cohort are closed.</span></div>
+  </div>
+  <div class="grid g2" style="margin-top:16px">
+    <div class="card"><h3>🎁 What participants get</h3><ul><li>Real projects used by millions of customers, restaurants, and delivery workers.</li><li>Mentoring from specialists and individual support with a development plan.</li><li>Bootcamps, hackathons, and practical challenges.</li><li>An international placement at a company in the same group in Latin America for some selected candidates.</li><li>Remote or hybrid work, depending on the profile and city.</li></ul></div>
+    <div class="card"><h3>🔍 What iFood is looking for</h3><ul><li><strong>Internship:</strong> enrolled in a university degree program (bachelor’s, teaching degree, or technology degree) or a technical program, with graduation expected between July 2027 and January 2029.</li><li><strong>Residency:</strong> graduated between December 2025 and December 2026.</li><li><strong>AI Builder:</strong> any field, with <strong>experience using prompts, vibe coding tools, and automations</strong>. Deep programming knowledge isn’t required. That’s exactly what weeks 1 to 10 of the plan provide.</li><li><strong>AI Engineer:</strong> preferably computer science, software engineering, mathematics, statistics, physics, or a related field.</li><li>English is not required.</li><li>In the program’s video presentation, iFood added that personal projects count, you don’t need to have a published model, and curiosity, authenticity, and starting with the problem rather than the tool matter.</li></ul></div>
+  </div>
+  <p class="fonte">Source: <a href="https://institucional.ifood.com.br/releases/programa-gen-ia/" target="_blank" rel="noopener">iFood's official announcement</a> and the <a href="https://carreiras.ifood.com.br/gen-ai/" target="_blank" rel="noopener">program's careers page</a>, checked on November 22, 2026. The selection criteria are what iFood itself explained in its program presentation. This guide is not affiliated with iFood and does not guarantee a position: it's a preparation plan.</p>
+</div></section>
+
+<section id="explicado"><div class="wrap">
+  <span class="chip">The difference</span>
+  <h2>From "I use AI sometimes" to <span class="amb">"look what I built"</span></h2>
+  <div class="grid g2">
+    <div class="card"><h3>😕 Without a plan</h3><p>You see the job opening, apply on the last day, and arrive at the interview saying you "really like AI." You have nothing to show, don't know what a business case is, and freeze during the interview with a bot on WhatsApp.</p></div>
+    <div class="card"><h3>😎 With the plan</h3><p>You arrive with a project that solved a real pain point and a before-and-after metric. You've practiced every step of the selection process with AI acting as the interviewer, and you can tell your story in two minutes.</p></div>
+  </div>
+  <div class="stats" style="margin-top:16px">
+    <div class="stat"><b>1 project with measurable results</b><span>is worth more than ten certificates. In the program itself, an intern cut a registration process from 1 hour to 1 minute: that's the kind of evidence this plan helps you build.</span></div>
+    <div class="stat"><b>6 steps practiced</b><span>from the AI interview on WhatsApp to the conversation with the team lead.</span></div>
+    <div class="stat"><b>R$ 0</b><span>all courses in the plan are open and free on INEMA.CLUB.</span></div>
+  </div>
+</div></section>
+
+<section id="plano"><div class="wrap">
+  <span class="chip">The plan</span>
+  <h2>12 weeks, <span class="amb">alongside your regular schedule</span></h2>
+  <p class="sub">About 5 hours per week, by our estimate. Each phase ends with something you can show.</p>
+  <div class="step"><div class="b">1</div><div><h3>Weeks 1 and 2: choose a profile and use AI every day <span class="tag">basics</span></h3><p>Take the test for both profiles. Then choose 3 tasks you already do every week (for school or work) and start doing them with AI. Write down how long they took before and how long they take now: that's your first metric.</p><p>To get started from scratch: <a href="https://inematds.github.io/do-chat-ao-agente-v72/" target="_blank" rel="noopener">From chat to agent</a> and <a href="https://inematds.github.io/qual-ia-usar/guia/" target="_blank" rel="noopener">Which AI to use</a>.</p></div></div>
+  <div class="step"><div class="b">2</div><div><h3>Weeks 3 to 6: follow your profile's learning path <span class="tag">learning path</span></h3><p><strong>Builder path:</strong> <a href="https://inematds.github.io/profissionalai/" target="_blank" rel="noopener">Integrate Your Profession with AI</a> → <a href="https://inematds.github.io/fae-ai/" target="_blank" rel="noopener">Strategic Automation with AI</a> → <a href="https://inematds.github.io/aiestrategia/" target="_blank" rel="noopener">AI Strategy Factory</a>.</p><p><strong>Engineer path:</strong> <a href="https://inematds.github.io/agentes-do-zero-v72/" target="_blank" rel="noopener">Build an Agent System from Scratch</a> → <a href="https://inematds.github.io/FEA-IA/" target="_blank" rel="noopener">AI Agent Engineering</a> → <a href="https://inematds.github.io/engenheiro-de-campo/guia/" target="_blank" rel="noopener">Field AI Engineer</a> (the part about proving it with measured tests).</p><p>Courses on these learning paths are in Portuguese.</p></div></div>
+  <div class="step"><div class="b">3</div><div><h3>Weeks 7 to 10: build a proof project <span class="tag">portfolio</span></h3><p>Build one real project: an agent or automation that solves someone's pain point (your team, an NGO, a relative's company, your college department). Agree in advance on which metric to change, deliver it, ask that person to use it, and measure again two weeks later.</p><p>Write a page describing the problem, what you did, the before-and-after metric, and what went wrong. That's what you'll show during the selection process.</p></div></div>
+  <div class="step"><div class="b">4</div><div><h3>Weeks 11 and 12: practice for the selection process <span class="tag">practice</span></h3><p>Go through each selection step with AI playing the evaluator, several times, until you can tell your story and describe your project without reading (see <a href="#selecao">the selection process</a>).</p></div></div>
+  <div class="step"><div class="b">5</div><div><h3>Until the next cohort: one project a month <span class="tag">keep it up</span></h3><p>After the 12 weeks, keep up the pace: one small project a month, each with a metric. The 2nd edition opened applications in late October; if there is a 3rd edition, it's reasonable to expect something similar in 2027 (that's our estimate, not an announcement). Keep an eye on the careers page.</p></div></div>
+  <div class="flow" aria-label="The plan's cycle"><span>Choose a profile</span><span class="arr">→</span><span>Learning path</span><span class="arr">→</span><span>Project with measurable results</span><span class="arr">→</span><span>A portfolio page</span><span class="arr">→</span><span>Practice for the selection process</span></div>
+</div></section>
+
+<section id="selecao"><div class="wrap">
+  <span class="chip">The selection process</span>
+  <h2>The 6 steps and <span class="amb">how to practice each one</span></h2>
+  <p class="sub">This is the process iFood described in the genAI video presentation (the official announcement doesn’t detail the stages). Other AI programs use similar stages.</p>
+  <div class="grid g3">
+    <div class="card"><h3>1. Online application</h3><p>Resume and form. Practice: ask AI to review your resume as if it were the recruiter and remove anything that doesn't show what you did.</p></div>
+    <div class="card"><h3>2. AI interview on WhatsApp</h3><p>A bot asks questions to get to know you beyond your resume. Practice: ask AI to do the same through short messages, and answer as you would on your phone, with real examples.</p></div>
+    <div class="card"><h3>3. Online challenge</h3><p>Logical reasoning and other skills. Practice: ask for timed logic problems and have it explain each mistake.</p></div>
+    <div class="card"><h3>4. Recruiter conversation</h3><p>Who you are and why you want this program. Practice: tell your story in 2 minutes: where you came from, what you've built, and why you.</p></div>
+    <div class="card"><h3>5. Technical interview or case</h3><p>Engineer: technical questions and problem-solving. Builder: a business case. Practice: AI plays the evaluator and gives you a vague problem; ask questions before you suggest a solution.</p></div>
+    <div class="card"><h3>6. Conversation with the team lead</h3><p>The person who will welcome you to the team. Practice: present your proof project as if they were the client: the problem, the metric, and what went wrong.</p></div>
+  </div>
+  <p class="fonte">Two tips the program itself repeated: be yourself, without putting on an act, and show how your curiosity leads to real work.</p>
+</div></section>
+
+<section id="como"><div class="wrap">
+  <span class="chip">Plain language</span>
+  <h2>What this plan is, and <span class="amb">what it doesn't promise</span></h2>
+  <div class="grid g3">
+    <div class="card"><h3>🏋️ Practice, not a shortcut</h3><p>Like preparing for an exam: you'll be better prepared, but you're the one who has to pass. No one can guarantee a position.</p></div>
+    <div class="card"><h3>🔁 Useful beyond iFood</h3><p>These two profiles appear at other companies under different names. A project with a metric is useful for internships, jobs, promotions, or your own business.</p></div>
+    <div class="card"><h3>🚫 Not run by iFood</h3><p>INEMA is not affiliated with the program. We use it because the program is public and clearly shows what companies are looking for.</p></div>
+  </div>
+</div></section>
+
+<section id="comecar"><div class="wrap">
+  <span class="chip">Get started</span>
+  <h2>Ask your AI to <span class="amb">be your coach</span></h2>
+  <p class="sub">Works with standard ChatGPT, Claude, or Gemini. No installation needed.</p>
+  <div class="grid g3">
+    <div class="card"><h3>1. Open your AI</h3><p>Start a new conversation just for your preparation.</p></div>
+    <div class="card"><h3>2. Paste the prompt below</h3><p>It will test your profile and build a 12-week plan with the free courses.</p></div>
+    <div class="card"><h3>3. Come back every week</h3><p>In the same conversation, tell it what you did. It will adjust the plan and start practicing the selection process in week 11.</p></div>
+  </div>
+  <div style="margin-top:20px">
+<pre id="pedidoTxt" style="white-space:pre-wrap">Be my coach to help me get into an AI internship or residency program (like iFood's genAI), using simple English.
+1. Give me a test, one question at a time, to find out whether I'm more of an AI Builder (I use AI to solve business problems) or an AI Engineer (I build models and systems). Also ask what I'm studying and when I expect to graduate.
+2. Build a 12-week plan, about 5 hours per week, following the "Builder or Engineer Plan" at https://inematds.github.io/builder-ou-engineer/guia/en/ and using the free courses listed there.
+3. Help me choose a proof project that solves someone's real pain point, with a before-and-after metric.
+4. When I say "practice", play the evaluator at each selection step: the short interview by message, the logic challenge, the business case or technical interview, and the conversation with the team lead. After each one, give me a score and tell me what I missed.
+Be honest: if I'm weak in something, say so.</pre>
+    <button class="btn" id="copiarPedido" style="margin-top:10px">Copy the prompt</button>
+  </div>
+  <div class="card" style="margin-top:16px"><h3>📄 Want the full plan in text?</h3><p>The week-by-week plan and a practice prompt for each selection step are on GitHub, ready to copy or print.</p><p><a class="btn ghost" href="https://github.com/inematds/builder-ou-engineer/blob/main/PLANO.md" target="_blank" rel="noopener">View the plan in Portuguese</a></p></div>
+</div></section>
+
+<section id="faq"><div class="wrap">
+  <span class="chip">Common questions</span>
+  <h2>Before you <span class="amb">get started</span></h2>
+  <div class="grid g2">
+    <div class="card"><h3>Applications are closed. Is it still worth it?</h3><p>It's even more useful now: if you prepare months in advance, you'll have a finished project ready. And the plan works for other programs and regular AI jobs.</p></div>
+    <div class="card"><h3>I’m from a humanities background. Do I have a chance?</h3><p>Yes: the Builder profile is open to any field, as long as you meet the graduation timeline (internship) or recent graduate timeline (residency) and have experience with prompts, vibe coding, and automations—skills the plan helps you build. In the program presentation, iFood said there’s even a nurse in the first cohort.</p></div>
+    <div class="card"><h3>I graduated more than a year ago.</h3><p>For genAI, the residency is for people who graduated within the past year. The plan still applies to other jobs, a career change, or using AI in your current work.</p></div>
+    <div class="card"><h3>Do I need to speak English?</h3><p>According to the announcement for the 2nd edition, English isn't required to apply to genAI. But it helps a lot with day-to-day work and the international placement.</p></div>
+    <div class="card"><h3>How much does it cost?</h3><p>Nothing. The courses in the plan and this guide are free. The free versions of ChatGPT, Claude, or Gemini are enough for practice.</p></div>
+    <div class="card"><h3>I live far from São Paulo.</h3><p>According to the 2nd edition announcement, the Engineer track is remote. The Builder track is hybrid for people in Osasco (SP) and remote for people in other cities. There are in-person meetups at times such as the start of the program.</p></div>
+  </div>
+  <p class="fonte" style="margin-top:22px">What about you: would you apply as a Builder or an Engineer today? The plan is free on inema.club, right on the web.</p>
+</div></section>
+</main>
+<footer>
+  <div class="wrap">
+    <div class="pill">AI Builder</div><div class="pill">AI Engineer</div><div class="pill">12 weeks</div><div class="pill">free</div><div class="pill">MIT</div>
+    <p style="margin-top:18px">Builder or Engineer Plan · free on inema.club, right on the web ·
+      <a href="https://github.com/inematds/builder-ou-engineer">inematds/builder-ou-engineer</a> ·
+      <a href="https://inema.club">INEMA.CLUB</a></p>
+  </div>
+</footer>
+<script>
+  (function(){
+    var KEY='builder-ou-engineer-theme';
+    var b=document.body, t=document.getElementById('themeToggle');
+    try{ if(localStorage.getItem(KEY)==='light'){ b.classList.add('light'); t.textContent='☀️'; } }catch(e){}
+    t.addEventListener('click',function(){
+      var light=b.classList.toggle('light');
+      t.textContent=light?'☀️':'🌙';
+      try{ localStorage.setItem(KEY, light?'light':'dark'); }catch(e){}
+    });
+  })();
+  (function(){
+    var bt=document.getElementById('copiarPedido'), tx=document.getElementById('pedidoTxt');
+    if(!bt||!tx) return;
+    var rot=bt.textContent;
+    bt.addEventListener('click',function(){
+      try{ navigator.clipboard.writeText(tx.textContent).then(function(){ bt.textContent='✓'; setTimeout(function(){bt.textContent=rot;},2000); }); }catch(e){}
+    });
+  })();
+</script>
+</body>
+</html>
