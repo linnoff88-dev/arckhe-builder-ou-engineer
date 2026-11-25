@@ -1,13 +1,13 @@
-# CLAUDE.md â€” builder-ou-engineer
+# CLAUDE.md ê¢â¬â builder-ou-engineer
 
-Guia + plano do ARCKHÉ AI para chegar pronto em programas de estÃ¡gio/residÃªncia em IA (perfis AI Builder e AI Engineer), tendo o genAI do iFood como rÃ©gua. ConteÃºdo aberto e gratuito.
+Guia + plano do ARCKHê AI para chegar pronto em programas de estêÂ¡gio/residêÂªncia em IA (perfis AI Builder e AI Engineer), tendo o genAI do iFood como rêÂ©gua. ConteêÂºdo aberto e gratuito.
 
 ## Regras do projeto
 
-- NÃºmeros, datas e requisitos do programa sÃ³ do comunicado oficial do iFood (bloco "PrÃ©-requisitos finais") e da pÃ¡gina de carreiras, com a data da conferÃªncia. O que vier de outra fonte Ã© dito como tal.
-- Sem nomes de funcionÃ¡rios ou estagiÃ¡rios e sem crÃ©dito a terceiros.
-- Deixar claro em toda superfÃ­cie: sem ligaÃ§Ã£o com o iFood, nÃ£o garante vaga.
-- Guia: PT Ã© a fonte; EN/ES sÃ£o cÃ³pias traduzidas pelo tradutor do projeto. Nada tÃ©cnico no guia; comandos ficam no README.
+- NêÂºmeros, datas e requisitos do programa sêÂ³ do comunicado oficial do iFood (bloco "PrêÂ©-requisitos finais") e da pêÂ¡gina de carreiras, com a data da conferêÂªncia. O que vier de outra fonte êÂ© dito como tal.
+- Sem nomes de funcionêÂ¡rios ou estagiêÂ¡rios e sem crêÂ©dito a terceiros.
+- Deixar claro em toda superfêÂ­cie: sem ligaêÂ§êÂ£o com o iFood, nêÂ£o garante vaga.
+- Guia: PT êÂ© a fonte; EN/ES sêÂ£o cêÂ³pias traduzidas pelo tradutor do projeto. Nada têÂ©cnico no guia; comandos ficam no README.
 - Autor dos commits: `linnoff88-dev <linnoff88-dev@gmail.com>`.
 
 ## Self-learning
@@ -16,4 +16,4 @@ When I correct you, or you catch yourself making a mistake: before continuing, a
 
 ## Lessons
 
-- 2026-11-22: requisito de programa sai do bloco oficial de prÃ©-requisitos, nÃ£o do vÃ­deo de divulgaÃ§Ã£o (o revisor pegou "experiÃªncia com IA nÃ£o Ã© requisito" contrariando o comunicado, e "matriculado" valendo sÃ³ para o estÃ¡gio).
+- 2026-11-22: requisito de programa sai do bloco oficial de prêÂ©-requisitos, nêÂ£o do vêÂ­deo de divulgaêÂ§êÂ£o (o revisor pegou "experiêÂªncia com IA nêÂ£o êÂ© requisito" contrariando o comunicado, e "matriculado" valendo sêÂ³ para o estêÂ¡gio).
